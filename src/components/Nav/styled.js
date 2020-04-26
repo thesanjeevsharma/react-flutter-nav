@@ -11,14 +11,14 @@ export const StyledWrapper = styled.div`
 
 export const StyledLink = styled.div`
   display: flex;
-  align-items: center;
+  align-items: end;
   height: 40px;
   border-radius: 20px;
   cursor: pointer;
   padding: 8px;
   color: ${(props) => (props.active ? "#253C59" : "#DFF1F8")};
   background: ${(props) => (props.active ? "#DFF1F8" : "#fff")};
-  width: ${(props) => (props.active ? "120px" : "36px")};
+  width: ${(props) => (props.active ? "110px" : "36px")};
   overflow: hidden;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
