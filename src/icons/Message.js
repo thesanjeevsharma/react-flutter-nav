@@ -1,5 +1,5 @@
 import React from "react";
-const MessageSquare = ({ size = 20, color = "#000000" }) => (
+const Inbox = ({ size = 20, color = "#000000" }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
@@ -11,7 +11,8 @@ const MessageSquare = ({ size = 20, color = "#000000" }) => (
     strokeLinecap="round"
     strokeLinejoin="round"
   >
-    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+    <path d="M21.5 12H16c-.7 2-2 3-4 3s-3.3-1-4-3H2.5" />
+    <path d="M5.5 5.1L2 12v6c0 1.1.9 2 2 2h16a2 2 0 002-2v-6l-3.4-6.9A2 2 0 0016.8 4H7.2a2 2 0 00-1.8 1.1z" />
   </svg>
 );
-export default MessageSquare;
+export default Inbox;
