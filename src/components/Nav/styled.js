@@ -12,17 +12,19 @@ export const StyledWrapper = styled.div`
 export const StyledLink = styled.div`
   display: flex;
   align-items: center;
+  height: 40px;
   border-radius: 20px;
   cursor: pointer;
   padding: 8px;
-  color: ${props => (props.active ? "#253C59" : "#DFF1F8")};
-  background: ${props => (props.active ? "#DFF1F8" : "#fff")};
-  width: ${props => (props.active ? "120px" : "36px")};
+  color: ${(props) => (props.active ? "#253C59" : "#DFF1F8")};
+  background: ${(props) => (props.active ? "#DFF1F8" : "#fff")};
+  width: ${(props) => (props.active ? "120px" : "36px")};
   overflow: hidden;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+  -webkit-tap-highlight-color: transparent;
 `;
 
 export const StyledIcon = styled.span``;

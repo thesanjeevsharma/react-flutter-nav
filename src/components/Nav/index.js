@@ -30,7 +30,7 @@ const Nav = () => {
             color={state.current === "messages" ? "#253C59" : "#333"}
           />
         </StyledIcon>
-        <StyledTitle>Messages</StyledTitle>
+        <StyledTitle>Inbox</StyledTitle>
       </StyledLink>
       <StyledLink
         active={state.current === "profile"}
